@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "waypointpacketerror",
+  "version": "${version}",
+  "name": "WaypointPacketError",
+  "description": "WaypointPackerError",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/waypointpacketerror/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.asone.waypointpacketerror.client.WaypointpacketerrorClient"
+    ],
+    "main": [
+      "me.asone.waypointpacketerror.Waypointpacketerror"
+    ]
+  },
+  "mixins": [
+    "waypointpacketerror.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
