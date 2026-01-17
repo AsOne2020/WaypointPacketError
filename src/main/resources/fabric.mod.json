@@ -3,7 +3,7 @@
   "id": "waypointpacketerror",
   "version": "${version}",
   "name": "WaypointPacketError",
-  "description": "WaypointPackerError",
+  "description": "Prevents errors when updating waypoints with null data on the client.",
   "authors": ["As_One"],
   "contact": {
     "issues": "https://github.com/AsOne2020/WaypointPacketError/issues",
